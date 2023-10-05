@@ -93,10 +93,8 @@ settingBut.addEventListener('click', setting_on_click);
 playbackBut.addEventListener('click', playback_on_click);
 randomBut.addEventListener('click', random_on_click);
 
-// Function to add student ID/name dynamically
 document.getElementById("200535886").textContent = "Joel Parappuram Joy";
 
-// Function to get a random word from an array
 function getRandomWord(array) {
     var randomIndex = Math.floor(Math.random() * array.length);
     return array[randomIndex];
